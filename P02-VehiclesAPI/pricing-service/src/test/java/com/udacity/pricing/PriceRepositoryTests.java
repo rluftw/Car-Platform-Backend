@@ -6,7 +6,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
@@ -15,14 +14,13 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PricingServiceApplicationTests {
+public class PriceRepositoryTests {
+    @Autowired
+    PriceRepository priceRepository;
 
-	@Autowired
-	PriceRepository priceRepository;
-
-	@Test
-	public void givenPriceJsonPopulatorThenShouldInsertPriceOnStart() {
-		List<Price> fruits = priceRepository.findAll();
-		assertEquals("record count is not matching", 5, fruits.size());
-	}
+    @Test
+    public void givenPriceJsonPopulatorThenShouldInsertPriceOnStart() {
+        List<Price> fruits = priceRepository.findAll();
+        assertEquals(5, fruits.size());
+    }
 }

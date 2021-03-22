@@ -8,7 +8,9 @@ import org.springframework.data.repository.init.Jackson2RepositoryPopulatorFacto
 
 /**
  * Creates a Spring Boot Application to run the Pricing Service.
- * Convert the application from a REST API to a microservice.
+ *
+ * The Pricing Service API is converted to a microservice with Spring Data REST,
+ * without the need to explicitly include code for the Controller or Service.
  */
 @SpringBootApplication
 public class PricingServiceApplication {
