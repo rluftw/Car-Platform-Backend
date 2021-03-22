@@ -1,0 +1,32 @@
+[
+  {
+    "_class": "com.udacity.pricing.domain.price.Price",
+    "currency": "USD",
+    "price": 67.82,
+    "vehicleId": 1
+  },
+  {
+    "_class": "com.udacity.pricing.domain.price.Price",
+    "currency": "USD",
+    "price": 78.26,
+    "vehicleId": 2
+  },
+  {
+    "_class": "com.udacity.pricing.domain.price.Price",
+    "currency": "USD",
+    "price": 67.82,
+    "vehicleId": 3
+  },
+  {
+    "_class": "com.udacity.pricing.domain.price.Price",
+    "currency": "USD",
+    "price": 50.27,
+    "vehicleId": 4
+  },
+  {
+    "_class": "com.udacity.pricing.domain.price.Price",
+    "currency": "USD",
+    "price": 78.96,
+    "vehicleId": 5
+  }
+]
