@@ -29,7 +29,7 @@ public class PricingControllerIntegrationTest {
 	private TestRestTemplate restTemplate;
 
 	/**
-	 * Within the test folder, at least one additional test has been implemented outside of contextLoads()
+	 * TASK: Within the test folder, at least one additional test has been implemented outside of contextLoads()
 	 * for the overall Pricing Service Application.
 	 */
 
